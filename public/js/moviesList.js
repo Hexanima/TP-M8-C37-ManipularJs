@@ -10,11 +10,14 @@ la clase: fondoMoviesList.
     ○ Color de fondo: teal.
     ○ Relleno: 20px. 
  */
+
 const qs = (str) => document.querySelector(str)
+const qsa = (str) => document.querySelectorAll(str)
+
 const body = qs("body")
 const h1 = qs("h1")
 
-if(confirm("¿Desea modo oscuro?")) {
+if (confirm("¿Desea modo oscuro?")) {
     body.style.backgroundColor = "#7f7f7f"
     body.classList.add("fondoMoviesList")
 }

@@ -16,6 +16,7 @@ clase “fondo”.
 ● Finalmente, establecer como visible a la etiqueta <main> en el browser o
 navegador, aplicando el estilo: display : block.
  */
+
 const qs = (str) => document.querySelector(str)
 const qsa = (str) => document.querySelectorAll(str)
 

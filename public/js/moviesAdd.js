@@ -8,3 +8,16 @@
 ● Agregar al artículo la clase: “fondoTransparente”.
 ● Agregar a la sección la clase: “fondoCRUD”.
  */
+
+const qs = (str) => document.querySelector(str)
+const qsa = (str) => document.querySelectorAll(str)
+
+const h1 = qs("h1")
+const section = qs("section")
+const article = qs("article")
+
+h1.innerText = "AGREGAR PELÍCULAS"
+h1.classList.add("titulo")
+
+article.classList.add("fondoTransparente")
+section.classList.add("fondoCRUD")
